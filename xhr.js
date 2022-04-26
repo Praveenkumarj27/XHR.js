@@ -9,7 +9,7 @@ xhr.onload=()=>{
     
     for(let names of countries){
         console.log(names.population);
-        console.log(names.altSpellings);
+        console.log(names.name);
     }
 };
 };
